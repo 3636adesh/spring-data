@@ -35,5 +35,5 @@ public class Order {
     @Embeddable
     public record  OrderId (UUID orderId) implements Serializable {}
 
-    public record CustomerId(String customerId,String firstName,String lastName) {}
+    public record CustomerId(String customerId) {}
 }
